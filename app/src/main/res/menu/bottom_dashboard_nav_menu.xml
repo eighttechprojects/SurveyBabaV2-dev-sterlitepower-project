@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mHome"
+        android:title="Home"
+        android:icon="@drawable/ic_menu_home"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/mProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_menu_profile"
+        app:showAsAction="always"
+        />
+
+
+    <item
+        android:id="@+id/holder"
+        android:title=""
+        app:showAsAction="ifRoom"
+        android:enabled="false"
+        />
+
+    <item
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_profile"
+        />
+
+    <item
+        android:title="Profile"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_profile"
+        />
+</menu>

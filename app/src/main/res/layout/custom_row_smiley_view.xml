@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="3dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <!-- TEXT Field -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/siemensBlueColor"
+            android:orientation="vertical"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txtSNoSmiley"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="0dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:textColor="@color/white"
+                        android:visibility="gone"
+                        />
+
+
+                    <TextView
+                        android:id="@+id/smiley_textview"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Smile"
+                        android:textSize="16sp"
+                        android:textColor="@color/white" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top"
+                        android:layout_marginStart="5dp"
+                        >
+                        <ImageView
+                            android:id="@+id/smiley_error_imageview"
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/ic_star"
+                            android:visibility="gone"
+                            />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!-- Smiley -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="@color/white"
+                android:weightSum="5"
+                android:orientation="horizontal">
+
+                <!-- smiley_emoji_1 -->
+                <LinearLayout
+                    android:id="@+id/ll_Smiley1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    >
+                    <ImageView
+                        android:id="@+id/smiley_emoji_1"
+                        android:layout_width="@dimen/smiley_emoji_size"
+                        android:layout_height="@dimen/smiley_emoji_size"
+                        android:src="@drawable/smiley_emoji_1"
+                        android:layout_margin="5dp"
+                        />
+                </LinearLayout>
+
+                <!-- smiley_emoji_2 -->
+                <LinearLayout
+                    android:id="@+id/ll_Smiley2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/smiley_emoji_2"
+                        android:layout_width="@dimen/smiley_emoji_size"
+                        android:layout_height="@dimen/smiley_emoji_size"
+                        android:src="@drawable/smiley_emoji_2"
+                        android:layout_margin="5dp"
+                        />
+                </LinearLayout>
+
+                <!-- smiley_emoji_3 -->
+                <LinearLayout
+                    android:id="@+id/ll_Smiley3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/smiley_emoji_3"
+                        android:layout_width="@dimen/smiley_emoji_size"
+                        android:layout_height="@dimen/smiley_emoji_size"
+                        android:src="@drawable/smiley_emoji_3"
+                        android:layout_margin="5dp"
+                        />
+                </LinearLayout>
+
+                <!-- smiley_emoji_4 -->
+                <LinearLayout
+                    android:id="@+id/ll_Smiley4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/smiley_emoji_4"
+                        android:layout_width="@dimen/smiley_emoji_size"
+                        android:layout_height="@dimen/smiley_emoji_size"
+                        android:src="@drawable/smiley_emoji_4"
+                        android:layout_margin="5dp"
+                        />
+                </LinearLayout>
+
+                <!-- smiley_emoji_5 -->
+                <LinearLayout
+                    android:id="@+id/ll_Smiley5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:id="@+id/smiley_emoji_5"
+                        android:layout_width="@dimen/smiley_emoji_size"
+                        android:layout_height="@dimen/smiley_emoji_size"
+                        android:src="@drawable/smiley_emoji_5"
+                        android:layout_margin="5dp"
+                        />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

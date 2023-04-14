@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical">
+
+    <!-- ###################### DashBoard Layout #################### -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/siemensBlueColor"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:padding="@dimen/_5sdp">
+
+        <RelativeLayout
+            android:layout_width="@dimen/login_icon_image_height"
+            android:layout_height="@dimen/login_icon_image_height">
+            <!-- ###################### Profile Image Layout #################### -->
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/UserProfileImage"
+                android:layout_width="@dimen/login_icon_image_width"
+                android:layout_height="@dimen/login_icon_image_height"
+                android:padding="1dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_login_user_icon"
+                app:shapeAppearanceOverlay="@style/Circular"
+                app:strokeColor="@color/white"
+                app:strokeWidth="1dp" />
+
+
+        </RelativeLayout>
+
+        <!-- ###################### Name and Email Id Layout #################### -->
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="Rajesh Joshi"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_13ssp" />
+        <TextView
+            android:id="@+id/tvUserEmailID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:text="projects@eighttechprojects.com"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_10sdp" />
+
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+    <!-- ###################### Items Layout #################### -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@color/colorDarkGery" />
+
+
+    <!-- DashBoard Layout -->
+    <LinearLayout
+        android:id="@+id/llDashBoard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/slider_pennding">
+
+            <LinearLayout
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="@dimen/nav_panel_width_logo"
+                    android:layout_height="@dimen/nav_panel_height_logo"
+                    android:background="@drawable/icon_dashboard"
+                    android:backgroundTint="@color/siemensBlueColor"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="@dimen/margin_10"
+                android:gravity="center"
+                android:text="DashBoard"
+                android:textColor="@color/black"
+                android:textSize="@dimen/nav_panel_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:visibility="visible"
+            android:background="@color/colorDarkGery" />
+
+    </LinearLayout>
+
+    <!-- Compass Layout -->
+    <LinearLayout
+        android:id="@+id/llCompass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/slider_pennding">
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="@dimen/nav_panel_width_logo"
+                android:layout_height="@dimen/nav_panel_height_logo"
+                android:background="@drawable/icon_compass"
+                android:backgroundTint="@color/siemensBlueColor"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/compass"
+            android:textColor="@color/black"
+            android:textSize="@dimen/nav_panel_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- GPS Satellite Layout -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:visibility="visible"
+        android:background="@color/colorDarkGery" />
+    <LinearLayout
+        android:id="@+id/llGpsSatellite"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:padding="@dimen/slider_pennding">
+
+        <LinearLayout
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="@dimen/nav_panel_width_logo"
+                android:layout_height="@dimen/nav_panel_height_logo"
+                android:background="@drawable/icon_satellite"
+                android:backgroundTint="@color/siemensBlueColor"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/gps_satellite"
+            android:textColor="@color/black"
+            android:textSize="@dimen/nav_panel_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <!-- Sync layout -->
+    <View
+        android:id="@+id/llSyncView"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:visibility="gone"
+        android:background="@color/colorDarkGery" />
+
+    <LinearLayout
+        android:id="@+id/llSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:padding="@dimen/slider_pennding">
+
+        <LinearLayout
+            android:layout_width="@dimen/nav_panel_width"
+            android:layout_height="@dimen/nav_panel_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/nav_panel_width_logo"
+                android:layout_height="@dimen/nav_panel_height_logo"
+                android:background="@drawable/icon_sync"
+                android:backgroundTint="@color/siemensBlueColor"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:gravity="center"
+            android:text="Sync"
+            android:textColor="@color/black"
+            android:textSize="@dimen/nav_panel_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!-- Setting Layout -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:visibility="visible"
+        android:background="@color/colorDarkGery" />
+    <LinearLayout
+        android:id="@+id/llSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/slider_pennding">
+
+        <LinearLayout
+            android:layout_width="@dimen/nav_panel_width"
+            android:layout_height="@dimen/nav_panel_height"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/nav_panel_width_logo"
+                android:layout_height="@dimen/nav_panel_height_logo"
+                android:background="@drawable/icon_setting"
+                android:backgroundTint="@color/siemensBlueColor" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|start"
+            android:layout_marginStart="@dimen/margin_10"
+            android:gravity="center|start"
+            android:text="@string/settings"
+            android:textColor="@color/black"
+            android:textSize="@dimen/nav_panel_text_size"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+
+    <!-- Logout layout -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@color/colorDarkGery" />
+    <LinearLayout
+        android:id="@+id/llLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:padding="@dimen/slider_pennding">
+
+        <LinearLayout
+            android:layout_width="@dimen/nav_panel_width"
+            android:layout_height="@dimen/nav_panel_height"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="@dimen/nav_panel_width_logo"
+                android:layout_height="@dimen/nav_panel_height_logo"
+                android:background="@drawable/icon_logout"
+                android:backgroundTint="@color/siemensBlueColor"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:gravity="center"
+            android:text="@string/logout"
+            android:textColor="@color/black"
+            android:textSize="@dimen/nav_panel_text_size"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

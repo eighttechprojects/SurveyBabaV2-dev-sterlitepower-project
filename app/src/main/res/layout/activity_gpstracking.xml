@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Modules.GPSTrackingActivity">
+
+    <!-- Google Map Layout -->
+    <fragment
+        android:id="@+id/gpsTrackingMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="130dp"
+            android:layout_marginEnd="18dp"
+            >
+            <RelativeLayout
+                android:id="@+id/rlCurrentLocation"
+                android:layout_width="@dimen/_40sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:background="@drawable/bg_circle_blue"
+                android:elevation="@dimen/_5sdp"
+                android:gravity="center"
+                android:visibility="visible">
+
+                <ImageView
+                    android:id="@+id/imgMyLocation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ictarget04"
+                    app:tint="@color/white" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <!-- ###################### Zoom Map Fragment #################### -->
+    <!-- Zoom  Map Fragment -->
+    <FrameLayout
+        android:id="@+id/zoom_map_layout"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:visibility="gone">
+
+        <fragment
+            android:id="@+id/zoom_map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="3dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/zoom_round_layout"
+            android:contentDescription="@string/todo" />
+
+    </FrameLayout>
+    <!-- Zoom  Icon  Set-->
+    <FrameLayout
+        android:id="@+id/zoom_map_marker_layout"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="60dp"
+        android:padding="1dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="135dp"
+            android:layout_height="135dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/zoom_center_point_layout" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtAccuracy"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:background="#3C000000"
+            android:gravity="center_vertical"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:layout_marginTop="10dp"
+            android:text="@string/accuracy"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+        <!-- Save Button Layout -->
+        <LinearLayout
+            android:id="@+id/llButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="70dp"
+            android:layout_marginBottom="63dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <Button
+                android:id="@+id/trackingStopButton"
+                android:layout_width="70sp"
+                android:layout_height="wrap_content"
+                android:text="@string/stop"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="60dp">
+
+            <!-- Undo Redo Layout -->
+            <LinearLayout
+                android:id="@+id/llUndoRedolayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <!-- Tracking by Walking Option -->
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fabTrackingUndo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_undo"
+                    app:fab_colorNormal="@color/white"
+                    app:fab_colorPressed="@color/grey"
+                    app:fab_label="Walking"
+                    app:fab_size="mini" />
+
+                <com.github.clans.fab.FloatingActionButton
+                    android:id="@+id/fabTrackingRedo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_redo"
+                    app:fab_colorNormal="@color/white"
+                    app:fab_colorPressed="@color/grey"
+                    app:fab_label="Tap"
+                    app:fab_size="mini"
+                    />
+
+            </LinearLayout>
+
+            <!-- Save Button -->
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/trackingSaveButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_save"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/grey"
+                app:fab_label="Walking"
+                app:fab_size="mini"
+                android:visibility="gone"/>
+
+            <!-- Cancel Button -->
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/trackingCancelButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_cancel"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/grey"
+                app:fab_label="Tap"
+                app:fab_size="mini"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+
+
+
+        <!-- Fab Button layout -->
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/fabMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginBottom="40dp"
+            android:padding="10dp"
+            app:menu_colorNormal="@color/siemensBlueColor">
+
+            <!-- Tracking by Walking Option -->
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabTrackingByWalking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_tracking_walk"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/grey"
+                app:fab_label="Walking"
+                app:fab_size="mini" />
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/fabTrackingByTap"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/icon_tracking_tap"
+                app:fab_colorNormal="@color/white"
+                app:fab_colorPressed="@color/grey"
+                app:fab_label="Tap"
+                app:fab_size="mini"
+                />
+
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+
+
+    </FrameLayout>
+
+
+</RelativeLayout>

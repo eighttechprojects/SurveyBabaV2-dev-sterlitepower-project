@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#4682B4</color>
+    <color name="purple_500">#4682B4</color>
+    <color name="purple_700">#4682B4</color>
+    <color name="teal_200">#4682B4</color>
+    <color name="teal_700">#4682B4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundLightColor">#42DFDFDF</color>
+    <color name="lightgrey">#BDBDBD</color>
+    <color name="green">#7ED321</color>
+
+    <color name="img_background">#4682B4</color>
+
+    <color name="purple_500_Light">#BC2E2E</color>
+    <color name="purple_700_red">#4682B4</color>
+
+    <color name="colorDarkGery">#BDBDBD</color>
+    <color name="colorGery">#EEEEEE</color>
+
+    <color name="colorLightGery">#81BDBDBD</color>
+
+    <color name="colorPrimary">#4682B4</color>
+    <color name="colorAccent">#4682B4</color>
+
+    <color name="transparentWhite">#59FFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="point">#FFEA00</color>
+    <color name="pointTrans">#59FFEA00</color>
+
+    <color name="line">#1976D2</color>
+    <color name="lineTrans">#591976D2</color>
+
+    <color name="orange">#E78B13</color>
+    <color name="polygone">#B40404</color>
+    <color name="polygonTrans">#59B40404</color>
+
+    <color name="defultColor">#007575</color>
+    <color name="defultColorTrans">#00FFFF</color>
+
+    <color name="colorTransBg">#26000000</color>
+    <color name="pink_bright">#FF10F0</color>
+    <color name="pink_text">#FF1493</color>
+    <color name="bg_measuring_toolbar">#434343</color>
+    <color name="grey">#CDCDCD</color>
+    <color name="grey_dark">#60646b</color>
+    <color name="grey_mid_light">#6c6c84</color>
+
+    <!-- Sattelite View -->
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="siemensBlueColor">#28bad6</color>
+</resources>

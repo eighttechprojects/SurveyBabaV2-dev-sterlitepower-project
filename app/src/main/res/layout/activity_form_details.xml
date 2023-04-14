@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<androidx.drawerlayout.widget.DrawerLayout-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/formLayout"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:id="@+id/llMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+<!--            <include-->
+<!--                layout="@layout/toolbar"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content" />-->
+
+            <TextView
+                android:id="@+id/txtAccuracy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_10sdp"
+                android:text="Accuracy"
+                android:visibility="gone"
+                android:textSize="@dimen/_15ssp" />
+
+            <LinearLayout
+                android:id="@+id/llViewContainer"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_margin="@dimen/margin_5"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <!-- Form Logo Layout -->
+                <LinearLayout
+                    android:id="@+id/formLogoLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:layout_marginTop="5dp">
+
+                    <ImageView
+                        android:id="@+id/formLogo"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/todo" />
+
+                </LinearLayout>
+
+
+                <!-- Recycler View -->
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rcvFormUI"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <!-- Bottom Button -->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnSubmit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_save"
+                            android:clickable="true"
+                            android:onClick="onSubmitForm"
+                            android:text="@string/lbl_Submit"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/margin_14" />
+
+                        <Button
+                            android:id="@+id/btnExit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/margin_30"
+                            android:layout_weight="1"
+                            android:background="@drawable/bg_button_save"
+                            android:clickable="true"
+                            android:onClick="onExitForm"
+                            android:text="@string/lbl_Exit"
+                            android:textAllCaps="false"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/margin_14" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <!-- Preview Layout Contain Lat Lon Date  -->
+        <LinearLayout
+            android:id="@+id/llPreview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/imgPreview"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/txtGeoTag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:padding="@dimen/_10sdp"
+                android:text="Lat: 1232132\nLong: 12321332\nDate: dd/mm/yy hh:mm:ss" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+<!--    <com.google.android.material.navigation.NavigationView-->
+<!--        android:id="@+id/nvView"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_gravity="start"-->
+<!--        android:background="@color/white"-->
+<!--        app:headerLayout="@layout/nav_header_main" />-->
+
+</RelativeLayout>
+

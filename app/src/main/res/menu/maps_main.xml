@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <item
+            android:id="@+id/ic_layers"
+            android:icon="@drawable/icon_layer"
+            android:title="@string/layers"
+            app:showAsAction="ifRoom" />
+
+        <item
+            android:id="@+id/ic_mesur"
+            android:icon="@drawable/icon_ruler"
+            android:title="@string/measurement"
+            app:showAsAction="ifRoom" />
+
+
+
+    <item app:showAsAction="always"
+        android:icon="@drawable/icon_menu"
+        android:title="">
+        <menu>
+
+                <item
+                    android:id="@+id/formSync"
+                    android:title="@string/sync"
+                    android:icon="@drawable/icon_sync"
+                    app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/mapType"
+                android:title="@string/map_type"
+                android:icon="@drawable/icon_map_type"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/viewLayerEditButton"
+                android:title="Online Layer Edit"
+                android:icon="@drawable/icon_map_type"
+                app:showAsAction="ifRoom" />
+
+
+
+        </menu>
+    </item>
+
+
+    <!--&lt;!&ndash;                <item&ndash;&gt;-->
+    <!--&lt;!&ndash;                    android:id="@+id/ic_exit_project"&ndash;&gt;-->
+    <!--&lt;!&ndash;                    android:icon="@drawable/ic_project"&ndash;&gt;-->
+    <!--&lt;!&ndash;                    android:title="@string/exit_project"&ndash;&gt;-->
+    <!--&lt;!&ndash;                    app:showAsAction="collapseActionView" />&ndash;&gt;-->
+
+    <!--&lt;!&ndash;                <item&ndash;&gt;-->
+    <!--&lt;!&ndash;                    android:id="@+id/ic_logout"&ndash;&gt;-->
+    <!--&lt;!&ndash;                    android:icon="@drawable/ic_logout"&ndash;&gt;-->
+    <!--&lt;!&ndash;                    android:title="@string/lblLogout"&ndash;&gt;-->
+    <!--&lt;!&ndash;                    app:showAsAction="collapseActionView" />&ndash;&gt;-->
+
+
+<!--    <item-->
+<!--        android:id="@+id/ic_gpscompass"-->
+<!--        android:icon="@drawable/ic_gps"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/gps_compass"-->
+<!--        app:iconTint="@color/white"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/ic_mesur"-->
+<!--        android:icon="@drawable/mesur"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/measurement"-->
+<!--        app:iconTint="@color/white"-->
+<!--        app:showAsAction="ifRoom" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/ic_setTopPanel"-->
+<!--        android:icon="@drawable/ic_layers"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/set_top_panel"-->
+<!--        app:iconTint="@color/white"-->
+<!--        app:showAsAction="collapseActionView" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/ic_exit_project"-->
+<!--        android:icon="@drawable/ic_project"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/exit_project"-->
+<!--        app:iconTint="@color/white"-->
+<!--        app:showAsAction="collapseActionView" />-->
+
+<!--    <item-->
+<!--        android:id="@+id/ic_logout"-->
+<!--        android:icon="@drawable/ic_logout"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:title="@string/lblLogout"-->
+<!--        app:iconTint="@color/white"-->
+<!--        app:showAsAction="collapseActionView" />-->
+
+</menu>

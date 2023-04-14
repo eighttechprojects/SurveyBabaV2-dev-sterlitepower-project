@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+
+
+        <LinearLayout
+            android:id="@+id/progressBarLayout"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="15dp"
+            android:background="@color/white"
+            android:layout_margin="10dp"
+            android:visibility="gone"
+            >
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:background="@color/white"
+                android:theme="@style/ProgressBarTheme"
+                android:layout_marginEnd="25dp" />
+
+            <TextView
+                android:id="@+id/progressBarMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:background="@color/white"
+                android:textSize="18sp"
+                android:text="Loading Data...."
+                android:layout_marginEnd="20dp"
+                />
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

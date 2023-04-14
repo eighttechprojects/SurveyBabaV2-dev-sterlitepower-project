@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorLightGery"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Item View -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:elevation="@dimen/card_view_elevation"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <!-- Image -->
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.imageview.ShapeableImageView
+                        android:id="@+id/userImageView"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:padding="1dp"
+                        android:src="@drawable/icon_user_profile"
+                        app:shapeAppearanceOverlay="@style/Circular"
+                        app:strokeWidth="1dp"
+                        app:strokeColor="@color/siemensBlueColor"
+                        />
+
+<!--                    <ImageView-->
+<!--                        android:id="@+id/userImageView"-->
+<!--                        android:layout_width="100dp"-->
+<!--                        android:layout_height="105dp"-->
+<!--                        android:src="@drawable/ic_menu_profile"-->
+<!--                        android:contentDescription="@string/todo" />-->
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <!-- Name -->
+                    <LinearLayout
+                        android:id="@+id/userNameLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_name"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/userName"
+                            android:textSize="14sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <!-- Email ID -->
+                    <LinearLayout
+                        android:id="@+id/userEmailIDLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_email"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/userEmailID"
+                            android:textSize="14sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <!-- Phone No -->
+                    <LinearLayout
+                        android:id="@+id/userPhoneNoLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_phone"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/userPhoneNo"
+                            android:textSize="14sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <!-- Designation -->
+                    <LinearLayout
+                        android:id="@+id/userDesignationLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_desgination"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/userDesignation"
+                            android:textSize="14sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <!-- Location -->
+                    <LinearLayout
+                        android:id="@+id/userLocationLayout"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_gravity="center"
+                        android:padding="3dp"
+                        android:orientation="horizontal"
+                        tools:ignore="UseCompoundDrawables"
+                        android:visibility="gone"
+                        >
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/icon_location"
+                            android:contentDescription="@string/todo" />
+
+                        <TextView
+                            android:id="@+id/userLocation"
+                            android:textSize="14sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="5dp"
+                            android:layout_marginEnd="5dp"
+                            android:layout_gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/descriptionLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgrey" />
+
+                <TextView
+                    android:id="@+id/userDescription"
+                    android:textSize="14sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+            <!-- Button -->
+            <LinearLayout
+                android:id="@+id/viewButtonLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="end"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/viewButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="35dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:background="@drawable/bg_new_button"
+                    android:text="CONTACT" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

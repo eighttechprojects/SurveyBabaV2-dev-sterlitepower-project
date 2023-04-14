@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item app:showAsAction="always"
+        android:icon="@drawable/icon_menu"
+        android:title="">
+        <menu>
+
+            <!-- Survey Show All Record menu Button -->
+            <item
+                android:id="@+id/timeLineCameraSync"
+                android:title="Sync"
+                app:showAsAction="never"
+                android:icon="@drawable/icon_sync"
+                />
+
+
+        </menu>
+    </item>
+
+</menu>

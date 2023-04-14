@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="3dp"
+    android:layout_marginTop="3dp"
+    android:layout_marginRight="3dp"
+    android:orientation="vertical">
+
+    <!-- State Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <!-- label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_10"
+            android:background="@color/siemensBlueColor"
+            android:text="@string/search_states"
+            android:textColor="@color/white" />
+
+        <!-- Spinner -->
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spState"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext" />
+
+    </LinearLayout>
+
+    <!-- City Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <!-- label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_10"
+            android:background="@color/siemensBlueColor"
+            android:text="@string/city"
+            android:textColor="@color/white" />
+
+        <!-- Spinner -->
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spCity"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext" />
+
+    </LinearLayout>
+
+    <!-- Zip Code/ Pin Code Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+        <!-- label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_10"
+            android:background="@color/siemensBlueColor"
+            android:text="@string/zip_code"
+            android:textColor="@color/white" />
+
+        <!-- Enter Zip Code -->
+        <EditText
+            android:id="@+id/zipCode"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:hint="@string/zip_code"
+            android:paddingStart="10dp"
+            android:textSize="14sp"
+            android:background="@drawable/bg_edittext" />
+
+    </LinearLayout>
+
+
+    <!-- Type of Contractor Layout  -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:orientation="vertical">
+        <!-- label -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_10"
+            android:background="@color/siemensBlueColor"
+            android:text="@string/type_of_contractor"
+            android:textColor="@color/white" />
+
+        <!-- Spinner -->
+        <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+            android:id="@+id/spTypeOfContractor"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_edittext"
+            />
+
+    </LinearLayout>
+
+
+    <!-- Search Layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/searchButton"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="@string/search"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/bg_edittext" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

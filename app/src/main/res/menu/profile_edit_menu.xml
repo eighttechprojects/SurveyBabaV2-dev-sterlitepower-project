@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/profileSaveButton"
+        android:icon="@drawable/icon_save_white"
+        app:showAsAction="ifRoom"
+        android:title="Save" />
+
+    <item
+        android:id="@+id/profileEditButton"
+        android:icon="@drawable/ic_profile_edit"
+        app:showAsAction="ifRoom"
+        android:title="Edit" />
+
+
+
+
+    <item app:showAsAction="always"
+        android:icon="@drawable/icon_menu"
+        android:title=""
+        >
+        <menu>
+                <item
+                    android:id="@+id/profileChangePasswordButton"
+                    app:showAsAction="never"
+                    android:title="Change Password" />
+
+        </menu>
+    </item>
+
+
+</menu>

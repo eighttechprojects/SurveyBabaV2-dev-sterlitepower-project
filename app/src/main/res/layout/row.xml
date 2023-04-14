@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textin_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lat : "
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/textin_label"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textout_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=":"
+        android:textStyle="bold"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_toRightOf="@id/textin"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textout_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Long : "
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/textout_point"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/textout_label"/>
+
+    <Button
+        android:id="@+id/remove"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/ic_action_close" />
+
+</RelativeLayout>
+

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.surveybaba">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> <!--  -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- Bluetooth -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" /> <!-- Android 13 -->
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.flash"
+        android:required="true" />
+
+    <application
+        android:name="com.volly.BaseApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon_new2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/app_icon_new2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SurveyBaba"
+        tools:replace="android:icon,android:theme">
+        <activity
+            android:name=".Modules.GPSTrackingModule.GPSTrackingMapActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="GPS Tracking"
+            android:exported="false" />
+        <activity
+            android:name=".Modules.ProjectModule.PResurveyActivity"
+            android:exported="false"
+            android:label="Resurvey" />
+        <activity
+            android:name=".Modules.GISSurveyModule.GISResurveyActivity"
+            android:exported="false"
+            android:label="Resurvey" />
+        <activity
+            android:name=".Modules.GISSurveyModule.GISLayersActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name=".Modules.GISSurveyModule.GISCameraActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Camera" />
+        <activity
+            android:name=".Modules.GISSurveyModule.GISSurveyFormDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false" />
+        <activity
+            android:name=".Modules.GISSurveyModule.SurveyWorkActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:label="Survey Work" />
+        <activity
+            android:name=".Modules.GISSurveyModule.SurveyAssignActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:label="Survey Assign" />
+        <activity
+            android:name=".Modules.GISSurveyModule.SurveyResurveyActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:label="GIS Survey" />
+        <activity
+            android:name=".Modules.GISSurveyModule.GISSurveyActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:theme="@style/Theme.SurveyBaba.NoActionBar" />
+        <activity
+            android:name=".Modules.ProjectModule.ProjectResurveyActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Project" />
+        <activity
+            android:name=".BarCodeActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="BarCode" />
+
+        <activity
+            android:name=".DashBoardSplashActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false" />
+
+        <activity
+            android:name=".AdminModules.Chart.ChartActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Charts" />
+        <activity
+            android:name=".Modules.MapCameraActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Camera" />
+        <activity
+            android:name=".PermissionActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Permission" />
+        <activity
+            android:name=".Modules.BusinessHubModule.SearchSurveyWorkRVActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Survey Work" />
+        <activity
+            android:name=".Modules.BusinessHubModule.SearchSurveyWorkActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Survey Work" />
+        <activity
+            android:name=".Modules.BusinessHubModule.SearchSurveyingAgencyActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Surveying Agency" />
+        <activity
+            android:name=".Modules.BusinessHubModule.SearchSurveyingAgencyRVActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Surveying Agency" />
+        <activity
+            android:name=".Modules.BusinessHubModule.SearchSurveyorsActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Search Surveyors" />
+        <activity
+            android:name=".Modules.BusinessHubModule.SearchSurveyorsRVActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Survey Surveyors" />
+        <activity
+            android:name=".Modules.BusinessHubModule.BusinessHubActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Business Hub" />
+        <activity
+            android:name=".Modules.TimeLineMapActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Time Line" />
+        <activity
+            android:name=".Modules.TimeLineCameraActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Time Line" />
+        <activity
+            android:name=".Modules.ProjectModule.ProjectWorkActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Project Work" />
+        <activity
+            android:name=".Modules.ProjectModule.ProjectActivityActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Project Activity" />
+        <activity
+            android:name=".Modules.ProjectModule.ProjectStageActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Project Stage" />
+        <activity
+            android:name=".Modules.SurveyActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Survey" />
+        <activity
+            android:name=".Modules.ProjectModule.ProjectAssignActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Project Assign" />
+        <activity
+            android:name=".Modules.BluetoothModule.BluetoothActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Bluetooth Device" />
+        <activity
+            android:name=".Modules.GPSTrackingActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Tracking" />
+        <activity
+            android:name=".Modules.CameraActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="Camera" />
+        <activity
+            android:name=".DashBoard.DashBoardBNActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:exported="false"
+            android:label="@string/title_activity_dash_board_bnactivity"
+            android:theme="@style/Theme.SurveyBaba.NoActionBar" />
+        <activity
+            android:name=".SplashActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".setting.MySubscription"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/my_subscription" />
+        <activity
+            android:name=".ProjectActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/projects"
+            android:theme="@style/Theme.SurveyBaba.NoActionBar" />
+        <activity
+            android:name=".FormActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/form"
+            android:theme="@style/Theme.SurveyBaba.NoActionBar" />
+        <activity
+            android:name=".FormDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden" /> <!-- android:theme="@style/Theme.SurveyBaba.NoActionBar" -->
+        <activity
+            android:name=".MapsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.SurveyBaba.NoActionBar" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" /> <!-- New Add -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".LayersActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".TimeLineMapsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="Time Line" />
+        <activity
+            android:name=".backup.BackupManagerActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/backup_manager" />
+        <activity
+            android:name=".setting.SettingActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/settings" />
+        <activity
+            android:name=".setting.SettingsMapScreenActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/map_screen" />
+        <activity
+            android:name=".setting.SettingsDisplayScreenActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/display" />
+        <activity
+            android:name=".setting.SettingsPanelScreenActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/panels_buttons" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/user_registration"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TimeLineActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/timeline"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".VideoViewActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".setting.GuidanceActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/guidance" />
+        <activity
+            android:name=".setting.TrackRecordingActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/track_recording" />
+        <activity
+            android:name=".ProfileActivitySettingsDetails"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/recording_profile" />
+        <activity
+            android:name=".setting.UnitsActivity"
+            android:configChanges="screenSize|orientation|keyboardHidden"
+            android:label="@string/units" /> <!-- <activity -->
+        <!-- android:name=".satellite.GpsSatelliteActivity" -->
+        <!-- android:configChanges="screenSize|orientation|keyboardHidden" -->
+        <!-- android:label="@string/satellite" /> -->
+        <service
+            android:name=".service.ForgroundLocationService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="location"
+            android:label="ForgroundLocationService" />
+
+        <service
+            android:name=".service.SyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="dataSync"
+            android:label="SyncService" />
+
+        <service
+            android:name=".service.BluetoothDeviceService"
+            android:enabled="true"
+            android:exported="false"
+            android:foregroundServiceType="connectedDevice" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <receiver android:name=".Utilities.MyTrackingBroadcast" /> <!-- Bluetooth Connectivity Receiver -->
+        <!--  -->
+        <receiver
+            android:name=".Modules.BluetoothModule.BluetoothBroadCastReceiver"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="Instantiatable" /> <!--  -->
+        <!-- Internet Connectivity Receiver -->
+        <receiver
+            android:name=".InternetConnection.ConnectivityReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

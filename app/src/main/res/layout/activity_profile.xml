@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginRight="@dimen/margin_15"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtEmailID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_emailid"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableTint="@color/purple_700_red"
+            android:drawablePadding="@dimen/margin_10"
+            android:textColorHint="@color/colorDarkGery"
+            android:layout_marginTop="@dimen/margin_30"
+            android:singleLine="true"
+            android:padding="@dimen/margin_11"
+            android:imeOptions="actionNext"
+            android:background="@drawable/bg_edittext" />
+
+        <EditText
+            android:id="@+id/edtFirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_firstname"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableTint="@color/purple_700_red"
+            android:drawablePadding="@dimen/margin_10"
+            android:textColorHint="@color/colorDarkGery"
+            android:layout_marginTop="@dimen/margin_10"
+            android:singleLine="true"
+            android:padding="@dimen/margin_11"
+            android:imeOptions="actionNext"
+            android:background="@drawable/bg_edittext" />
+
+        <EditText
+            android:id="@+id/edtLastname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/type_your_lastname"
+            android:textColor="@color/black"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawableTint="@color/purple_700_red"
+            android:drawablePadding="@dimen/margin_10"
+            android:textColorHint="@color/colorDarkGery"
+            android:layout_marginTop="@dimen/margin_10"
+            android:singleLine="true"
+            android:padding="@dimen/margin_11"
+            android:imeOptions="actionNext"
+            android:background="@drawable/bg_edittext" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_20"
+            android:background="@drawable/bg_button"
+            android:textAllCaps="false"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/dashboard_drawer_layout"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <!-- ###################### Tool Bar #################### -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <!--        <include layout="@layout/dashboardtoolbar_layout"/>-->
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/dashboard_toolbar"
+                map:title="Dash Board"
+                map:titleTextColor="@color/white"
+                android:background="@color/siemensBlueColor"
+                />
+        </RelativeLayout>
+
+        <!-- ###################### RecycleView Layout #################### -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="?actionBarSize">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/dashBoardRecycleView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="?actionBarSize" />
+
+
+        <!-- ###################### Coordinator Layout #################### -->
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:id="@+id/coordinatorLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            tools:layout_editor_absoluteY="56dp">
+
+
+
+            <!-- ###################### Bottom App Bar #################### -->
+            <com.google.android.material.bottomappbar.BottomAppBar
+                android:id="@+id/bottomAppBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:background="@color/white"
+                map:fabCradleMargin="20dp"
+                map:fabCradleRoundedCornerRadius="40dp"
+                map:fabCradleVerticalOffset="10dp"
+                tools:ignore="BottomAppBar">
+
+                <com.google.android.material.bottomnavigation.BottomNavigationView
+                    android:id="@+id/nav_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:background="@android:color/transparent"
+                    map:labelVisibilityMode="labeled"
+                    map:menu="@menu/bottom_nav_menu"
+                    />
+            </com.google.android.material.bottomappbar.BottomAppBar>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/mfloatingbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/siemensBlueColor"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_add"
+                map:layout_anchor="@id/bottomAppBar"
+                map:maxImageSize="30dp" />
+
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+        </RelativeLayout>
+
+
+        <!-- ###################### Navigation #################### -->
+        <com.google.android.material.navigation.NavigationView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/nav_slider_bar"
+            map:headerLayout="@layout/navheader"
+            android:layout_gravity="start"
+            />
+
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</RelativeLayout>

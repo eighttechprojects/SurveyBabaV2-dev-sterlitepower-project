@@ -1,0 +1,4 @@
+include ':app', ':org.json', ':libcompass'
+rootProject.name = "SurveyBaba"
+include ':myapplication'
+include ':mylibrary'

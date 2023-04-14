@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/drawable/bg_button_save.xml" value="0.1905" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/drawable/ic_add.xml" value="0.2435" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/drawable/ic_menu_profile.xml" value="0.1955" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/drawable/icon_name.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/drawable/icon_password_visible.xml" value="0.22" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/drawable/icon_tracking_walk.xml" value="0.184" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout-land/customsearchwork__dialogview.xml" value="0.47477477477477475" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_business_hub.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_dbcamera.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_form_details.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_gpstracking.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_maps.xml" value="0.2" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_permission.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_profile_setting_details_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_project_activity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_registration.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_search_survey_work.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_search_survey_work_rvactivity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_search_surveying_agency.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_search_surveying_agency_rvactivity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_search_surveyors.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_search_surveyors_rvactivity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_settings.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_settings_display_screen.xml" value="0.536" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_time_line_camera.xml" value="0.2604166666666667" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_time_line_map.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/activity_timeline.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_dashboard_adapter_layout.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_project_activity_adapter_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_audio_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_camera_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_checkbox_group.xml" value="0.22231722958529285" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_datetime_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_edittext_area_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_edittext_number_type.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_edittext_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_file_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_header_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_image_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_layer.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_layer_list.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_paragraph_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_radio_group.xml" value="0.22231722958529285" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_ratings.xml" value="0.22231722958529285" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_recording_dialog.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_recording_profile.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_score_bar.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_smiley_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_text_selection_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_thumsup_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_top_panel.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_row_video_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_search_survey_adapter_view.xml" value="0.4668470906630582" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_search_survey_work_adapter.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/custom_searchwork_dialog.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/customsearchwork__dialogview.xml" value="0.4318181818181818" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/dialog_edittext.xml" value="0.22488242838820008" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/dialog_profile.xml" value="0.22488242838820008" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/dialog_textview.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/dialog_top_panel.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/file_upload_view_recycle_view_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/fragment_profile.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/image_zoom_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/image_zoom_view_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/profileimage_zoom_layout.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/setting_layout.xml" value="0.536" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/survey_custom_marker_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/survey_custom_row_text_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/timeline_activity_maps.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/layout/timeline_custom_marker_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/menu/db_camera_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/menu/profile_edit_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/menu/submit.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/menu/survey_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/menu/timeline_map_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V1/mobile-developer/app/src/main/res/menu/timeline_menu.xml" value="0.2734375" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable-hdpi/icon_lock.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable-mdpi/icon_admin.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/bg_circle_white.xml" value="0.2495" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/bg_display_textview.xml" value="0.2115" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/bg_edittext.xml" value="0.279" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/bg_marker_circle_yellow.xml" value="0.188" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/bg_rectangle_white.xml" value="0.2495" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/icon_menu.xml" value="0.279" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/icon_password_not_visible.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/icon_password_visible.xml" value="0.1315" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/drawable/untick.xml" value="0.256" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout-land/activity_dash_board_splash.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_bar_code.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_bluetooth.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_chart.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_dash_board.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_dash_board_bnactivity.xml" value="0.2" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_dash_board_splash.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_dbcamera.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_form_details.xml" value="0.2" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_giscamera.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_gislayers.xml" value="0.21376656690893545" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_gismap_camera.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_gissurvey.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_gissurvey_form_details.xml" value="0.21376656690893545" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_gpstracking.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_gpstracking_map.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_layers.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_login.xml" value="0.22488242838820008" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_map_camera.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_maps.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_presurvey.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_profile_setting_details_screen.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_project_assign.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_project_resurvey.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_project_work.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_search_survey_work.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_search_survey_work_rvactivity.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_search_surveying_agency.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_search_surveying_agency_rvactivity.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_search_surveyors.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_search_surveyors_rvactivity.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings_display_screen.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings_guidance_screen.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings_map_screen.xml" value="0.6" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings_panel_screen.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings_track_recordings_screen.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_settings_units.xml" value="0.536" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_survey.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_survey_assign.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_survey_resurvey.xml" value="0.21376656690893545" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_survey_work.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_time_line_camera.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_time_line_map.xml" value="0.2" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/activity_video_view_fullscreen.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/bg_rectangle_white.xml" value="0.205859375" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_bluetooth_device_adapter_layout.xml" value="0.65625" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_dashboard_adapter_layout.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_project_adapter_layout.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_barcode_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_edittext_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_file_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_header_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_image_view.xml" value="0.22231722958529285" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_layer_list.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_recording_dialog.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_recording_profile.xml" value="0.536" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_smiley_view.xml" value="0.22231722958529285" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_row_top_panel.xml" value="0.5997425997425997" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_score_view.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_search_survey_adapter_view.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_search_survey_work_adapter.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/custom_searchwork_dialog.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/dialog_converter_line_type.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/dialog_converter_type.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/dialog_map_type.xml" value="0.536" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/file_upload_view_recycle_view_layout.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/image_zoom_view_layout.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/list_project.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/map_camera_layout_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/nav_header_main.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/navheader.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/point_item.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/profile_change_password_view.xml" value="0.22488242838820008" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/profileimage_zoom_layout.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/setting_layout.xml" value="0.264" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/spinner_item.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/survey_custom_marker_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/survey_custom_row_text_view.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/switch_setting_layout.xml" value="0.22445489525438223" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/layout/text_setting_layout.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/bottom_dashboard_nav_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/dashboard.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/db_camera_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/download.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/edit.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/gpstracking_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/gpstrackingmap_menu.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/maps_main.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/maps_measuring.xml" value="0.22530996152201796" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/menu_satellite_compass.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/profile_edit_menu.xml" value="0.4" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/submit.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/survey_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/timeline_map_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/SurveyBaba Application/SurveyBaba V2/mobile-developer/app/src/main/res/menu/timeline_menu.xml" value="0.10389055151774262" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable-mdpi/ic_profile_edit.xml" value="0.195" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable-mdpi/zoom_center_point_layout.xml" value="0.256" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable-mdpi/zoom_round_layout.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_border.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_border_white.xml" value="0.205" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_button.xml" value="0.256" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_button_save.xml" value="0.279" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_black.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_blue.xml" value="0.256" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_green.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_light_blue.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_orange.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_pink.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_purple.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_red.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_circle_white.xml" value="0.205" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_edittext.xml" value="0.256" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_marker_circle_green.xml" value="0.104" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_marker_circle_pinkish.xml" value="0.195" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_marker_circle_project_icon.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_marker_circle_yellow.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_new_button.xml" value="0.185" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_paragraph.xml" value="0.1555" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_project.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_score_selected.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_score_unselected.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_selector_wb.xml" value="0.279" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/bg_white_transparent.xml" value="0.26" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_add.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.202" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_menu.xml" value="0.262" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_menu_camera.xml" value="0.202" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_menu_document.xml" value="0.274" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_profile.xml" value="0.202" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/ic_save.xml" value="0.134" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_camera.xml" value="0.164" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_dashboard.xml" value="0.2765" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_menu.xml" value="0.156" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_save.xml" value="0.1805" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_save_white.xml" value="0.1805" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_sync.xml" value="0.205" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/icon_video.xml" value="0.274" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/roundedittext.xml" value="0.222" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/selector_score_ratings.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/drawable/tick.xml" value="0.279" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_backup_manager.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_bluetooth.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_dash_board.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_dash_board_bnactivity.xml" value="0.2" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_dbcamera.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_form.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_form_details.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_gpstracking.xml" value="0.2" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_layers.xml" value="0.2604166666666667" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_location.xml" value="0.2604166666666667" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_main_gps_satellite.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_maps.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_profile_setting_details_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_project.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_project_activity.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_project_assign.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_project_status.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_project_work.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_registration.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings_display_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings_guidance_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings_map_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings_panel_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings_track_recordings_screen.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_settings_units.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_splash.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_survey.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/activity_timeline.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_chkbox_btn.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_dashboard_adapter_layout.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_fileuploadview_layout_dialogbox.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_icon_info.xml" value="0.26132246376811596" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_info_window.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_project_activity_adapter_layout.xml" value="0.2734375" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_project_adapter_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_project_stage_adapter_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_project_status_adapter_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_project_work_adapter_layout.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_radio_btn.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_audio_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_camera_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_checkbox_group.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_datetime_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_edittext_area_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_edittext_number_type.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_edittext_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_file_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_form_logo_view.xml" value="0.2734375" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_header_view.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_image_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_layer.xml" value="0.6" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_layer_list.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_paragraph_view.xml" value="0.5705329153605015" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_radio_group.xml" value="0.5625965996908809" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_ratings.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_score_bar.xml" value="0.536" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_smiley_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_text_selection_view.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_thumsup_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_top_panel.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_row_video_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_score_view.xml" value="0.26132246376811596" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_smiley_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/custom_thumsup_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/dashboardtoolbar_layout.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/dialog_edittext.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/dialog_map_type.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/dialog_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/dialog_textview.xml" value="0.27395833333333336" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/dialog_top_panel.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/file_upload_view_recycle_view_layout.xml" value="0.27395833333333336" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/fragment_blank.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/fragment_profile.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/image_zoom_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/image_zoom_view_layout.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/list_project.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/nav_header_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/nav_header_main_2.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/navheader.xml" value="0.3616692426584235" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/profile_change_password_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/spinner_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/survey_custom_marker_view.xml" value="0.26974358974358975" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/survey_custom_row_text_view.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/survey_custom_textview.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/test_layout.xml" value="0.536" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/layout/toolbar.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/bottom_dashboard_nav_menu.xml" value="0.26871794871794874" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/bottom_navigation_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/dashboard.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/db_camera_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/edit.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/gpstracking_menu.xml" value="0.45180722891566266" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/maps_main.xml" value="0.4" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/maps_measuring.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/menu_satellite_compass.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/profile_edit_menu.xml" value="0.264" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/submit.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/menu/survey_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/mipmap-anydpi-v26/app_icon_new2.xml" value="0.1" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.256" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/libcompass/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/libcompass/src/main/res/layout/fragment_compass.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/libcompass/src/main/res/layout/fragment_map.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/libcompass/src/main/res/menu/menu_nav.xml" value="0.27447916666666666" />
+        <entry key="..\:/Survey baba/mobile-developer/mobile-developer/libcompass/src/main/res/menu/menu_satellite_compass.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.10400000000000001" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
